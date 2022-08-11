@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<%- include("./components/header.ejs") %>
+
+<body>
+	<%- include("./components/navbar.ejs") %>
+	<script src="/notes.js"></script>
+	<div id="notes" class="notes"></div>
+	<span class="EMessage" id="Elog"></span><br>
+	<button onclick="getNotes()">Update notes</button>
+	<button onclick="createNote()">Create note</button>
+	<button onclick="logOut()">LogOut</button>
+</body>

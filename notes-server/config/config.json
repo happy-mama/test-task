@@ -1,0 +1,23 @@
+{
+	"development": {
+		"username": "postgres",
+		"password": "*(bvp[089h-2j{)DS*cb8bea80f",
+		"database": "work-notes",
+		"host": "192.168.0.110",
+		"dialect": "postgres"
+	},
+	"test": {
+		"username": "postgres",
+		"password": "*(bvp[089h-2j{)DS*cb8bea80f",
+		"database": "database_test",
+		"host": "192.168.0.110",
+		"dialect": "postgres"
+	},
+	"production": {
+		"username": "postgres",
+		"password": "*(bvp[089h-2j{)DS*cb8bea80f",
+		"database": "database_production",
+		"host": "192.168.0.110",
+		"dialect": "postgres"
+	}
+}

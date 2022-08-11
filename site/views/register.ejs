@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<%- include("./components/header.ejs") %>
+
+<body>
+	<%- include("./components/navbar.ejs") %>
+	<script src="/register.js"></script>
+	<div class="midle">
+		Enter your login<br>
+		<input type="text" id="login" placeholder="login"><br>
+		<span class="EMessage" id="Elogin"></span><br>
+		<br>
+		Enter yuor password<br>
+		<input type="text" id="pass" placeholder="password"><br>
+		<span class="EMessage" id="Epass"></span><br>
+		<br>
+		Repeat your password<br>
+		<input type="text" id="passRep" placeholder="password"><br>
+		<span class="EMessage" id="EpassRep"></span><br>
+		<br>
+		Enter Your Email<br>
+		<input type="text" id="email" placeholder="email"><br>
+		<span class="EMessage" id="Eemail"></span>
+		<br>
+		<button id="reg" onclick="init()">Register</button>
+		<span class="EMassage" id="Ebutton"></span>
+	</div>
+</body>
